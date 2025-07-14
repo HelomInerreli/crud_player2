@@ -14,7 +14,11 @@ class PlayerController extends Controller
      */
     public function index()
     {
-        //
+        // $players = Player::orderBy('id', 'desc')->get(); // Fetch all players from the database ordered by ID in descending order
+        // Alternatively, you can use the all() method to fetch all players without ordering
+        // Uncomment the line below if you want to use the orderBy method
+        $players = Player::all();
+        return view('pages.players.index', ['players' => $players]);
     }
 
     /**
