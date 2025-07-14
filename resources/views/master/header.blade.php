@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg text-white bg-dark fixed-top">
-    <a class="navbar-brand text-white " href="#">Helom Valentim</a>
+    <a class="navbar-brand text-white " href="#">Players</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -14,15 +14,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('gallery') ? 'active text-white' : 'text-secondary' }}"
-                    href="{{ url('/gallery') }}">
-                    Gallery
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link {{ Request::is('blog') ? 'active text-white' : 'text-secondary' }}"
-                    href="{{ url('/blog') }}">
-                    Blog
+                <a class="nav-link {{ Request::is('players') ? 'active text-white' : 'text-secondary' }}"
+                    href="{{ url('/players') }}">
+                    Players
                 </a>
             </li>
             <li class="nav-item">

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Audi</title>
+    <title>Crud Players</title>
 
     <link href="{!! asset('css/app.css') !!}" rel="stylesheet" type="text/css" />
     @yield('styles')
@@ -18,7 +18,10 @@
     @endcomponent
 
     <main class="p-5">
-        @yield('content')
+        <div class="container">
+            <br>
+            @yield('content')
+        </div>
     </main>
 
     @component('master.footer')
