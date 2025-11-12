@@ -49555,8 +49555,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/helomvalentim/Documents/Develop/Laravel/crud_player/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/helomvalentim/Documents/Develop/Laravel/crud_player/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/helomvalentim/Documents/GitHub/crud_player2/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/helomvalentim/Documents/GitHub/crud_player2/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
